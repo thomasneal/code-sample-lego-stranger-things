@@ -1,0 +1,30 @@
+.one-model-two-worlds {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  @media screen and (max-width: 999px) {
+    padding: 0 32px;
+    text-align: center;
+    background: $darken_bg, url("../img/bg-guy-with-set.jpg") center right;
+  }
+
+  @media screen and (min-width: 1000px) {
+    padding: 0 64px;
+    text-align: left;
+    background: url("../img/bg-guy-with-set.jpg");
+  }
+}
+
+.one-model-two-worlds > * {
+  color: $white;
+
+  @media screen and (max-width: 999px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    width: 33.33%;
+  }
+}

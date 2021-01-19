@@ -1,0 +1,38 @@
+.hero {
+  text-align: center;
+  background: url("../img/bg-header.jpg") no-repeat;
+  padding: 128px 0;
+  background-size: cover;
+}
+
+.hero__presenting-brands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.plus {
+  width: 12px;
+  height: 32px;
+  color: $red;
+  margin: 0 16px;
+  font-size: 21px;
+  line-height: 32px;
+  transform: translateY(-2px);
+}
+
+.hero__brand {
+  @media screen and (max-width: 599px) {
+    width: 260px;
+    margin: 20px 16px 0;
+  }
+}
+
+.hero__tagline {
+  color: $red;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 48px 0 0;
+}

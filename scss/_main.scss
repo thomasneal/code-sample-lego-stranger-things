@@ -1,0 +1,64 @@
+/* Colors */
+$grey:       #E5E5E5;
+$dark_grey:  #3E3434;
+$light_grey: #9F9999;
+$red:        #EA2A2D;
+$blue:       #4755BC;
+$white:      #FFFFFF;
+$darken_bg:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+
+html {
+  background: $grey;
+}
+
+body {
+  font-family: 'Overlock', cursive;
+  font-size: 21px;
+  line-height: 32px;
+  margin: 0 auto;
+  color: $dark_grey;
+
+  @media screen and (max-width: 599px) {
+    width: 320px;
+  }
+
+  @media screen and (max-width: 999px) {
+    width: 600px;
+  }
+
+  @media screen and (max-width: 1299px) {
+    width: 900px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 1312px;
+  }
+
+}
+
+main {
+  background-color: $white;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 80px;
+  margin: 8px 0 12px;
+  color: $dark_grey;
+}
+
+h3 {
+  margin: 0 0 12px;
+  padding-top: 141px;
+  font-size: 32px;
+  line-height: 48px;
+
+  @media screen and (max-width: 599px) {
+    padding-top: 141px;
+  }
+
+  @media screen and (min-width: 600px) {
+    padding-top: 96px;
+  }
+}

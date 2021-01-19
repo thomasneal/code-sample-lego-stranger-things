@@ -1,0 +1,32 @@
+.highlights {
+  display: flex;
+  padding: 0px 64px 87px;
+
+  @media screen and (max-width: 1000px) {
+    display: block;
+    text-align: center;
+    padding: 0px 32px 43px;
+  }
+}
+
+.highlight {
+  flex: 1;
+
+  @media screen and (max-width: 1000px) {
+    margin-bottom: 40px;
+  }
+}
+
+.highlight:not(:last-child) {
+  margin-right: 64px;
+
+  @media screen and (max-width: 1000px) {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .highlight img {
+    width: 100%;
+  }
+}
